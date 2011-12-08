@@ -1,0 +1,109 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+<title>iMyApps 服務說明</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-484240-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<a href='http://iMyApps.appspot.com'>iMyApps 首頁</a>
+<br />
+<h2>iMyApps 服務</h2>
+iMyApps 是一個記錄您購買的 iPhone/iPad 軟體的服務。<br />
+透過一個客戶端程式讀取已下載的 App，並將App資訊儲存到雲端。<br />
+(下載回來的App是 *.ipa 檔案，位於iTunes Media資料夾下)<br />
+之後隨時隨地都可以從 iMyApps 服務頁面上查詢下載過的App記錄！<br />
+<br />
+<h3>開始使用 - Step by step</h3>
+<ol>
+<li><a href='http://iMyApps.appspot.com/?page=signup' target='_blank'>註冊</a> iMyApps 帳號</li>
+<li>至您註冊的信箱收取認證信件，並點擊信件中的網址</li>
+<li><a href='#download'>下載</a> iMyApps客戶端</li>
+<li>執行 iMyApps 客戶端程式(可於每次電腦開機時執行客戶端程式進行同步)</li>
+<li><a href='http://iMyApps.appspot.com'>登入</a> 並開始使用各項功能</li>
+</ol>
+<h3>功能說明</h3>
+<ol>
+<li>列表：列出您記錄的App，並可幫 App 添加備忘說明</li>
+<li>搜尋：搜尋您記錄的App</li>
+<li>統計：統計您下載的App數量及花費統計(美金)</li>
+<li>個人檔案：修改您的個人相關資訊</li>
+</ol>
+<b>*注意*</b><br />
+若您下載 App 後，在進行同步前即將 App 移除，且移除 App 時未保留 IPA 檔案，
+您之後將無法查詢此 App 的相關記錄。<br />
+<br />
+<h3>螢幕截圖：</h3>
+<table>
+<tr><td><br>App清單<br></td><td><br>App說明<br></tr>
+<tr><td><img src='/images/screenshot1.jpg' width='320' height='480'></td>
+<td><img src='/images/screenshot2.jpg' width='320' height='480'></td></tr>
+<tr><td><br>全部App列表<br></td><td><br>統計資訊<br></td></tr>
+<tr><td><img src='/images/screenshot3.jpg' width='320' height='480'></td>
+<td><img src='/images/screenshot4.jpg' width='320' height='480'></td></tr>
+</table>
+
+<hr>
+<h2>iMyApps 客戶端</h2>
+iMyApps 客戶端是用於將下載的App(*.ipa)資訊同步到雲端的程式。<br />
+<ol>
+<li>支援 Microsoft Windows</li>
+<li>需 Java Version 6 (JRE 1.6.0) 以上版本 (<a href='http://www.java.com'>下載</a>)</li>
+</ol>
+<h3>iMyApps 客戶端程式設定檔的路徑位置</h3>
+<pre>
+  Vista 及 Windows7
+    C:\Users\Username\AppData\Local\iMyApps\config.xml
+  Windows XP
+    C:\Documents and Settings\Username\Application Data\iMyApps\config.xml
+</pre>
+<br />
+<h3>設定檔格式：</h3>
+<textarea rows=7 cols=70 readonly='true'>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>iMyApps Config</comment>
+<entry key="名稱">數值</entry>
+</properties>
+</textarea>
+<br />
+<br />
+<h3>設定檔中可以設定的參數：</h3>
+<ol>
+<li>apppath: 存放 IPA 檔的資料夾路徑
+<li>delay: 程式啟動後，延遲幾秒後再進行連線動作</li>
+<li>buyer: 針對特定的購買帳號進行記錄，若有多個可用 ',' 隔開！(預設為所有讀取到的IPA檔都會記錄)</li>
+</ol>
+<br />
+<h3>預設的  iTunes App 資料夾位置：</h3>
+<pre>
+C:\Users\Username\Music\iTunes\iTunes Media\Mobile Applications
+</pre>
+
+若您不是使用預設的 iTunes Media資料夾，需要修改相關路徑，請於設定檔中加入<br />
+<textarea rows=1 cols=70 readonly='true'>
+<entry key="apppath">磁碟:\\存放IPA檔的路徑</entry>
+</textarea>
+<h3><a name='download'>下載 iMyAppsClient v0.3</a></h3>
+<ol>
+<li><a href='/files/iMyAppsClientSetup.exe'>安裝版本</a></li>
+<li><a href='/files/iMyAppsClient.zip'>免安裝版本</a> (執行時加上 -h 參數可顯示說明)</li>
+<li><a href='/files/iMyAppsClientJava.zip'>Java 版本</a> (JVM options 需加上 -Dfile.encoding=UTF-8 )</li>
+</ol>
+<br />
+<br />
+<a href='/'>首頁</a> | <a href='mailto:luckymission2010@gmail.com'>連絡作者</a>
+</body>
+</html>

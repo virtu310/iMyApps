@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='imyapps'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+
+  <!-- Inherit the default GWT style sheet.  You can change       -->
+  <!-- the theme of your GWT application by uncommenting          -->
+  <!-- any one of the following lines.                            -->
+  <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+
+  <extend-property name="locale" values="zh_TW"/>
+
+  <!-- Other module inherits                                      -->
+  <inherits name='org.restlet.Restlet' />
+  <inherits name='org.restlet.JSON' />
+  <inherits name='org.restlet.XML' />
+  <inherits name='net.imyapps.Common' />
+  
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='net.imyapps.gwt.client.IMyApps'/>
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'/>
+  <source path='shared'/>
+
+</module>

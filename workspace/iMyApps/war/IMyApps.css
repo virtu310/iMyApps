@@ -1,0 +1,145 @@
+h3 {
+  font-weight: bold;
+  color: #777777;
+  /*
+  font-size: 2em;
+  margin: 40px 0px 70px;
+  */
+  text-align: center;
+}
+
+#leftContainer {
+  overflow-x:hidden;
+  width:640px;
+  height:600px;
+}
+
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+.labelError {
+  color: red;
+}
+
+.labelInfo {
+  color: green;
+}
+
+.flexTable {
+  border-top: thin solid #444444;
+  border-left: thin solid #444444;
+  border-right: thin solid #111111;
+  border-bottom: thin solid #111111;
+  background-color:  #505050;
+  width: 620px;
+  table-layout: fixed;
+}
+
+.flexTable-OddRow {
+  background-color: #cccccc;
+}
+
+.flexTable-EvenRow {
+  background-color:  #aaaaaa;
+}
+
+.flexTable-LastRow {
+  background-color:  #eeeeee;
+  font-size: 110%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.list-col1 {
+  width: 5%;
+}
+
+.list-col2 {
+  width: 10%;
+}
+
+.list-col3 {
+  width: 70%;
+}
+
+.list-col4 {
+  width: 15%;
+}
+
+.desc-table {
+  border-top: thin solid #777777;
+  border-left: thin solid #777777;
+  border-right: thin solid #333333;
+  border-bottom: thin solid #333333;
+  background-color:  #eeeeee;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.desc-Name {
+font-size: large;
+font-weight: bold;
+}
+
+.desc-Artist {
+font-size: small;
+}
+
+.desc-Genre {
+font-size: small;
+font-style: italic;
+}
+
+.desc-Price {
+}
+
+.desc-Note {
+}
+
+.desc-NoteModify {
+font-size: small;
+font-style: italic;
+}
+
+.menuButton {
+   font-family:Courier New,monospace;
+   background-color:#CCCCCC;
+   filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1,StartColorStr='#aaaaaa',EndColorStr='#a9a9a9');
+   border-style:double;
+   border-color:#EEEEEE;
+   border-width:3px;
+}
+
+.closeButton {
+  font: bold small 'trebuchet ms',helvetica,sans-serif;
+  margin: 15px 6px 6px;
+}
+
+.statisticTable {
+  border-top: thin solid #EED0B0;
+  border-left: thin solid #EED0B0;
+  border-right: thin solid #EED0B0;
+  border-bottom: thin solid #EED0B0;
+  color: #555555;
+  text-align: center;
+}
+
+.statisticTable-OddRow {
+  border-left: thin solid #FFE0C0;
+  border-right: thin solid #FFE0C0;
+  border-bottom: thin solid #FFE0C0;
+}
+.statisticTable-EvenRow {
+  border-top: thin solid #FFE0C0;
+  border-left: thin solid #FFE0C0;
+  border-right: thin solid #FFE0C0;
+}

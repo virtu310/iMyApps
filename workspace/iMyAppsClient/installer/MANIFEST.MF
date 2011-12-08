@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_13 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+Bundle-Name: Restlet Extension - Apache HTTP Client
+Bundle-SymbolicName: org.restlet.ext.httpclient
+Bundle-Version: 2.1.0.m2
+Bundle-Vendor: Noelios Technologies
+Export-Package: org.restlet.ext.httpclient,org.restlet.ext.httpclient.
+ internal
+Import-Package: org.apache.commons.codec,org.apache.commons.logging,or
+ g.apache.http,org.apache.http.auth,org.apache.http.auth.params,org.ap
+ ache.http.client,org.apache.http.client.entity,org.apache.http.client
+ .methods,org.apache.http.client.params,org.apache.http.client.protoco
+ l,org.apache.http.client.utils,org.apache.http.conn,org.apache.http.c
+ onn.params,org.apache.http.conn.routing,org.apache.http.conn.scheme,o
+ rg.apache.http.conn.ssl,org.apache.http.conn.util,org.apache.http.coo
+ kie,org.apache.http.cookie.params,org.apache.http.entity,org.apache.h
+ ttp.entity.mime,org.apache.http.entity.mime.content,org.apache.http.i
+ mpl,org.apache.http.impl.auth,org.apache.http.impl.client,org.apache.
+ http.impl.conn,org.apache.http.impl.conn.tsccm,org.apache.http.impl.c
+ ookie,org.apache.http.impl.entity,org.apache.http.impl.io,org.apache.
+ http.io,org.apache.http.message,org.apache.http.params,org.apache.htt
+ p.protocol,org.apache.http.util,org.restlet,org.restlet.data,org.rest
+ let.engine,org.restlet.engine.adapter,org.restlet.engine.application,
+ org.restlet.engine.component,org.restlet.engine.header,org.restlet.en
+ gine.local,org.restlet.engine.security,org.restlet.engine.util,org.re
+ stlet.representation,org.restlet.resource,org.restlet.service,org.res
+ tlet.util
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Main-Class: net.imyapps.client.IpaChecker
+Name: net/imyapps/client/IpaChecker.class

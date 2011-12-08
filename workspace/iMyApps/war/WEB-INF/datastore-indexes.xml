@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes
+  autoGenerate="true">
+  <datastore-index kind="Account" ancestor="false">
+        <property name="Uid" direction="asc" />
+        <property name="LoginName" direction="asc" />
+    </datastore-index>
+    <datastore-index kind="Item" ancestor="false">
+        <property name="ItemId" direction="asc" />
+        <property name="Genre" direction="asc" />
+    </datastore-index>
+	<datastore-index kind="PurchasedItem" ancestor="false">
+        <property name="Uid" direction="asc" />
+        <property name="ItemId" direction="asc" />
+        <property name="PurchaseDate" direction="asc" />
+    </datastore-index>
+</datastore-indexes>

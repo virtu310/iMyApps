@@ -1,0 +1,169 @@
+body {
+  font-size: x-large;
+  width:640px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-weight: bold;
+  color: #777777;
+  font-size: 150%;
+  text-align: center;
+}
+
+A {
+  font-size: x-large;
+}
+
+#leftContainer {
+  width:640px;
+}
+
+.gwt-DialogBox {
+  width: 500px;
+}
+
+.gwt-Button {
+  font-size: x-large; 
+}
+
+.gwt-TextBox {
+  font-size: x-large;
+}
+
+.gwt-PasswordTextBox {
+  font-size: x-large;
+}
+
+.gwt-Label { 
+  font-size: x-large;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  font-size: x-large;
+  color: red;
+}
+
+.labelError {
+  font-size: x-large;
+  color: red;
+}
+
+.labelInfo {
+  font-size: x-large;
+  color: green;
+}
+
+.flexTable {
+  border-top: thin solid #444444;
+  border-left: thin solid #444444;
+  border-right: thin solid #111111;
+  border-bottom: thin solid #111111;
+  background-color:  #505050;
+  width: 620px;
+}
+
+.flexTable-OddRow {
+  background-color: #cccccc;
+}
+
+.flexTable-EvenRow {
+  background-color:  #aaaaaa;
+}
+
+.flexTable-LastRow {
+  background-color:  #eeeeee;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.list-col1 {
+  width: 5%;
+}
+
+.list-col2 {
+  width: 10%;
+}
+
+.list-col3 {
+  width: 65%;
+}
+
+.list-col4 {
+  width: 20%;
+}
+
+.desc-table {
+  border-top: thin solid #777777;
+  border-left: thin solid #777777;
+  border-right: thin solid #333333;
+  border-bottom: thin solid #333333;
+  background-color:  #eeeeee;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.desc-Name {
+font-size: xx-large;
+font-weight: bold;
+}
+
+.desc-Artist {
+}
+
+.desc-Genre {
+font-style: italic;
+}
+
+.desc-Price {
+}
+
+.desc-Note {
+}
+
+.desc-NoteModify {
+font-style: italic;
+}
+
+.menuButton {
+   font-size: xx-large;
+   font-family:Courier New,monospace;
+   background-color:#CCCCCC;
+   filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1,StartColorStr='#aaaaaa',EndColorStr='#a9a9a9');
+   border-style:double;
+   border-color:#EEEEEE;
+   border-width:3px;
+   margin-top:30px;
+   margin-bottom:30px;
+}
+
+.closeButton {
+  font: bold small 'trebuchet ms',helvetica,sans-serif;
+  margin: 15px 6px 6px;
+  font-size: 100%;
+}
+
+.statisticTable {
+  border-top: thin solid #EED0B0;
+  border-left: thin solid #EED0B0;
+  border-right: thin solid #EED0B0;
+  border-bottom: thin solid #EED0B0;
+  color: #555555;
+  text-align: center;
+}
+
+.statisticTable-OddRow {
+  border-left: thin solid #FFE0C0;
+  border-right: thin solid #FFE0C0;
+  border-bottom: thin solid #FFE0C0;
+}
+.statisticTable-EvenRow {
+  border-top: thin solid #FFE0C0;
+  border-left: thin solid #FFE0C0;
+  border-right: thin solid #FFE0C0;
+}

@@ -1,0 +1,31 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\MyProject\iMyApps\workspace\iMyAppsClient\installer\iMyApps.jar</jar>
+  <outfile>D:\MyProject\iMyApps\output\iMyAppsClient.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>true</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>D:\MyProject\iMyApps\workspace\iMyAppsClient\installer\icon.ico</icon>
+  <singleInstance>
+    <mutexName>iMyApps</mutexName>
+    <windowTitle>iMyApps</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>net.imyapps.client.IpaChecker</mainClass>
+    <cp>iMyApps.jar</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <minVersion>1.6.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <opt>-Dfile.encoding=UTF-8</opt>
+  </jre>
+</launch4jConfig>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appleId</key>
+	<string>sample@sample.org</string>
+	<key>artistId</key>
+	<integer>304219585</integer>
+	<key>artistName</key>
+	<string>Skype Software S.a.r.l</string>
+	<key>bundleShortVersionString</key>
+	<string>3.0.0</string>
+	<key>bundleVersion</key>
+	<string>3.0.0.189</string>
+	<key>buy-only</key>
+	<true/>
+	<key>buyParams</key>
+	<string>productType=C&amp;salableAdamId=304878510&amp;pricingParameters=STDQ&amp;price=0&amp;ct-id=14</string>
+	<key>copyright</key>
+	<string>© (c) 2003 - 2010 Skype Limited, Patents Pending. Skype, associated trade marks and logos and the "S" symbol are trade marks of Skype Limited</string>
+	<key>drmVersionNumber</key>
+	<integer>0</integer>
+	<key>fileExtension</key>
+	<string>.app</string>
+	<key>genre</key>
+	<string>Social Networking</string>
+	<key>genreId</key>
+	<integer>6005</integer>
+	<key>itemId</key>
+	<integer>304878510</integer>
+	<key>itemName</key>
+	<string>Skype</string>
+	<key>kind</key>
+	<string>software</string>
+	<key>playlistArtistName</key>
+	<string>Skype Software S.a.r.l</string>
+	<key>playlistName</key>
+	<string>Skype</string>
+	<key>price</key>
+	<integer>0</integer>
+	<key>priceDisplay</key>
+	<string>Free</string>
+	<key>purchaseDate</key>
+	<date>2011-01-08T09:18:11Z</date>
+	<key>rating</key>
+	<dict>
+		<key>content</key>
+		<string></string>
+		<key>label</key>
+		<string>4+</string>
+		<key>rank</key>
+		<integer>100</integer>
+		<key>system</key>
+		<string>itunes-games</string>
+	</dict>
+	<key>releaseDate</key>
+	<string>2009-03-31T07:00:00Z</string>
+	<key>s</key>
+	<integer>143470</integer>
+	<key>softwareIcon57x57URL</key>
+	<string>http://a1.phobos.apple.com/us/r1000/048/Purple/71/9e/ef/mzi.wtkrwnpm.png</string>
+	<key>softwareIconNeedsShine</key>
+	<false/>
+	<key>softwareSupportedDeviceIds</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>softwareVersionBundleId</key>
+	<string>com.skype.skype</string>
+	<key>softwareVersionExternalIdentifier</key>
+	<integer>3253914</integer>
+	<key>softwareVersionExternalIdentifiers</key>
+	<array>
+		<integer>1466803</integer>
+		<integer>1529132</integer>
+		<integer>1602608</integer>
+		<integer>1651681</integer>
+		<integer>1750461</integer>
+		<integer>1930253</integer>
+		<integer>1961532</integer>
+		<integer>1973932</integer>
+		<integer>2026202</integer>
+		<integer>2526384</integer>
+		<integer>2641622</integer>
+		<integer>2703653</integer>
+		<integer>2890413</integer>
+		<integer>3024489</integer>
+		<integer>3253914</integer>
+	</array>
+	<key>vendorId</key>
+	<integer>30244</integer>
+	<key>versionRestrictions</key>
+	<integer>16843008</integer>
+</dict>
+<dict>
+	<key>appleId</key>
+	<string>sample@sample.org</string>
+	<key>artistId</key>
+	<integer>366168903</integer>
+	<key>artistName</key>
+	<string>Leland J. Roys</string>
+	<key>buy-only</key>
+	<true/>
+	<key>buyParams</key>
+	<string>productType=C&amp;salableAdamId=387614872&amp;pricingParameters=STDQ&amp;price=0&amp;ct-id=14</string>
+	<key>copyright</key>
+	<string>c Leland J Roys</string>
+	<key>drmVersionNumber</key>
+	<integer>0</integer>
+	<key>fileExtension</key>
+	<string>.app</string>
+	<key>genre</key>
+	<string>Utilities</string>
+	<key>genreId</key>
+	<integer>6002</integer>
+	<key>itemId</key>
+	<integer>387614872</integer>
+	<key>itemName</key>
+	<string>4x4 Gyroscope Clinometer</string>
+	<key>kind</key>
+	<string>software</string>
+	<key>playlistArtistName</key>
+	<string>Leland J. Roys</string>
+	<key>playlistName</key>
+	<string>4x4 Gyroscope Clinometer</string>
+	<key>price</key>
+	<integer>0</integer>
+	<key>priceDisplay</key>
+	<string>Free</string>
+	<key>purchaseDate</key>
+	<date>2010-10-10T03:51:59Z</date>
+	<key>rating</key>
+	<dict>
+		<key>content</key>
+		<string></string>
+		<key>label</key>
+		<string>4+</string>
+		<key>rank</key>
+		<integer>100</integer>
+		<key>system</key>
+		<string>itunes-games</string>
+	</dict>
+	<key>releaseDate</key>
+	<string>2010-08-23T23:42:28Z</string>
+	<key>s</key>
+	<integer>143470</integer>
+	<key>softwareIcon57x57URL</key>
+	<string>http://a1.phobos.apple.com/us/r1000/041/Purple/8a/96/43/mzi.xiaeotpi.png</string>
+	<key>softwareIconNeedsShine</key>
+	<false/>
+	<key>softwareSupportedDeviceIds</key>
+	<array>
+		<integer>4</integer>
+		<integer>2</integer>
+	</array>
+	<key>softwareVersionBundleId</key>
+	<string>com.lelandclim.climrfc1940identifier</string>
+	<key>softwareVersionExternalIdentifier</key>
+	<integer>2949309</integer>
+	<key>softwareVersionExternalIdentifiers</key>
+	<array>
+		<integer>2910020</integer>
+		<integer>2949309</integer>
+	</array>
+	<key>vendorId</key>
+	<integer>357416</integer>
+	<key>versionRestrictions</key>
+	<integer>16843008</integer>
+</dict>
+</plist>

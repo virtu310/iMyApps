@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <link rel=stylesheet href="standard.css">
+	<script type="text/javascript">
+		var isMobile = 0;
+		
+		function initCSS()
+		{
+			if((navigator.userAgent.match(/iPhone/i)) || 
+		 	  	(navigator.userAgent.match(/iPad/i)) ||
+		   		(navigator.userAgent.match(/iPod/i))) {
+				document.write('<link rel=stylesheet href="IMyApps_iPhone.css">');
+				isMobile = 1;
+			}
+			else if((navigator.userAgent.match(/Android/i))) {
+				document.write('<link rel=stylesheet href="IMyApps_iPhone.css">');
+				isMobile = 1;
+			}
+			else {
+				document.write('<link rel=stylesheet href="IMyApps.css">');
+			}
+		}
+		
+		function initLocale()
+		{
+			var s = null;
+			
+			if (navigator.language != null) {
+				s = navigator.language.split("-");
+			}
+			else if (navigator.systemLanguage != null) {
+				s = navigator.systemLanguage.split("-");
+			}
+			
+			if (s != null && s.length == 2) {
+				document.write('<meta name="gwt:property" content="locale=' + 
+						s[0].toLowerCase() + '_' + s[1].toUpperCase() + '">');
+			}
+		}
+		
+		initCSS();
+		initLocale();
+	</script>
+
+    <title>iMyApps</title>
+    
+    <script type="text/javascript" language="javascript" src="imyapps/imyapps.nocache.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-484240-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>    
+  </head>
+
+  <body>
+
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+    
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+      </div>
+    </noscript>
+
+	<script type="text/javascript">
+	if (isMobile == 1) {
+		document.write('<h3>iMyApps Mobile</h3>');
+	}
+	else {
+		document.write('<h3>iMyApps</h3>');
+	}
+	</script>
+
+    <table align="center">
+      <tr>
+        <td colspan="2">
+        <div id="topContainer">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+        <div id="messageLabelContainer">
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <div id="leftContainer"> 
+        </td>
+        <td>
+        <div id="rightContainer">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+        <div id="bottomContainer">
+        </td>
+      </tr>
+      <tr><td colspan=2>&nbsp;</td></tr>
+      <tr>
+      <td colspan="2" align="center">
+      <a href='/help.html' target='_blank'>說明</a> | <a href='mailto:luckymission2010@gmail.com'>連絡作者</a>
+      </td>
+      </tr>
+      <tr><td colspan=2>&nbsp;</td></tr>
+    </table>
+  </body>
+</html>
